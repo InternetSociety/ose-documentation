@@ -6,12 +6,15 @@ This repository contains documentation for the Internet Society's [Open Standard
 
 For the Open Standards Everywhere (OSE) project, we are building four reference servers:
 * https://ose-apache.internetsociety.org/
-* https://ose-apache-cdn.internetsociety.org/  (not yet available at this address)
+* https://ose-apache-cdn.internetsociety.org/
 * https://ose-nginx.internetsociety.org/
-* https://ose-nginx-cdn.internetsociety.org/ (not yet available at this address)
+* https://ose-nginx-cdn.internetsociety.org/
 
-All of these servers have been configured to achieve 100% on [the Internet.nl website test suite](https://internet.nl/) 
-and are in the process of being configured to pass the [http2.pro](https://http2.pro/) HTTP/2 test.
+All of these servers are being configured to achieve 100% on [the Internet.nl website test suite](https://internet.nl/) 
+and to pass the [http2.pro](https://http2.pro/) HTTP/2 test.
+
+12 Feb 2020 Update - The two non-CDN sites are at 100% in the tests. The two CDN sites are at 97% while we are getting
+some changes made to the TLS configuration (dropping support for TLS 1.0/1.1).  All four servers support HTTP/2.
 
 ## Current plan for documentation
 
