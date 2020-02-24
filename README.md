@@ -44,9 +44,9 @@ work underway in the later part of February 2020.
 [Note: need to include notes about how to turn off older versions of TLS]
 
 ### TLS - HSTS
-* How to configure HSTS on your apache web server
+* [How to configure HSTS on your apache web server](ose-web-hsts-apache.md)
 * How to configure HSTS on your nginx web server
-* How to configure HSTS on your apache or nginx web server with a CDN
+* [How to configure HSTS on your web server with a CDN](ose-web-hsts-cdns.md)
 
 ### TLS - Cipher Order
 * How to configure TLS cipher order on your apache web server
