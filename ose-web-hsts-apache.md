@@ -22,7 +22,7 @@ HTTP Strict Transport Security (HSTS), defined in [RFC 6797](https://tools.ietf.
     ```
     Then restart the apache server
  
-3. Open virtual host file to edit
+3. Open your virtual host file to edit. (this might be `httpd.conf`, `apache.conf`, or a separate file for your virtual host)
  
 4. If file has section for HTTP (port 80), add the following:
     ```
