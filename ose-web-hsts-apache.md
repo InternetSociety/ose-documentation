@@ -1,4 +1,4 @@
-# HSTS
+# How to configure HSTS on your apache web server
 
 HTTP Strict Transport Security (HSTS), defined in [RFC 6797](https://tools.ietf.org/html/rfc6797), requires web browsers to connect via HTTPS when visiting your website. This helps protect your site visitors from man-in-the-middle (MitM) attacks.
 
