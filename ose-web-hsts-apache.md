@@ -13,7 +13,7 @@ HTTP Strict Transport Security (HSTS), defined in [RFC 6797](https://tools.ietf.
     ```
     /etc/apache/mods-enabled 
     ```
-and look for: **rewrite.load**  and **headers.load**
+    and look for: **rewrite.load**  and **headers.load**
  
 2. If not loaded, run the following commands
     ```
@@ -27,9 +27,14 @@ and look for: **rewrite.load**  and **headers.load**
 4. If file has section for HTTP (port 80), add the following:
     ```
     RewriteEngine on
-    RewriteCond %{SERVER_NAME} =ose-apache.internetsociety.org
+    RewriteCond %{SERVER_NAME} = <your hostname>
     RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
     ```
+    For example, we used this for our server:
+    ```
+    RewriteEngine on
+    RewriteCond %{SERVER_NAME} = ose-apache.internetsociety.org
+    RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
  
 5. Add the header statement in the (443) section. We recommend a HSTS max-age of at least six months (31536000 seconds). 
     ```
