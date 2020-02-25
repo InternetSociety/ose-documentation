@@ -61,6 +61,11 @@ The technical documentation listed below is currently planned. As the project is
 * How to configure HTTP/2 on your nginx web server
 * How to configure HTTP/2 on your apace or nginx web server with a CDN
 
+## Providing feedback
+
+If you find any errors in the documentation, or have additional suggestions, [please open a new issue here on GitHub](https://github.com/InternetSociety/ose-documentation/issues) so that we can respond. If you do not use GitHub and do not wish to create a free GitHub account, you can [email project lead Dan York](mailto:york@isoc.org).
+
 ## Questions?
+
 If you have questions about this project, please contact project lead Dan York, either here on Github (@danyork) or at [york@isoc.org](mailto:york@isoc.org)
 
