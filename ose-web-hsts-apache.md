@@ -41,3 +41,8 @@ HTTP Strict Transport Security (HSTS), defined in [RFC 6797](https://tools.ietf.
     Header Set Strict-Transport-Security "max-age=31536000"
     ```
 6. Restart apache
+
+--------
+
+This documentation is part of the Internet Society's [Open Standards Everywhere project](https://www.internetsociety.org/ose/).
+To find the most recent version or to provide feedback, plase visit https://github.com/InternetSociety/ose-documentation
