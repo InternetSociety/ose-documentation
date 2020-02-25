@@ -14,7 +14,7 @@ All of these servers are being configured to achieve 100% on [the Internet.nl we
 and to pass the [http2.pro](https://http2.pro/) HTTP/2 test.
 
 12 Feb 2020 Update - The two non-CDN sites are at 100% in the tests. The two CDN sites are at 97% while we are getting
-some changes made to the TLS configuration (dropping support for TLS 1.0/1.1).  All four servers support HTTP/2.
+some changes made to the TLS configuration (dropping support for TLS 1.0/1.1) in the CDN.  All four servers support HTTP/2.
 
 ## Current plan for documentation
 
@@ -24,8 +24,6 @@ We are not planning to create all of these documents entirely from scratch. We w
 excellent tutorials on these topics, including some the Internet Society created earlier as part of our Deploy360 Programme.
 
 The technical documentation listed below is currently planned. As the project is just getting underway, **this list may change**.
-Once documents are created in this repository, they will be linked from this page. We are planning to get the documentation
-work underway in the later part of February 2020.
 
 ### Introduction
 * How a generic apache, nginx, or basic LAMP-stack is missing security pieces
@@ -45,7 +43,7 @@ work underway in the later part of February 2020.
 
 ### TLS - HSTS
 * [How to configure HSTS on your apache web server](ose-web-hsts-apache.md)
-* How to configure HSTS on your nginx web server
+* [How to configure HSTS on your nginx web server](ose-web-hsts-nginx.md)
 * [How to configure HSTS on your web server with a CDN](ose-web-hsts-cdns.md)
 
 ### TLS - Cipher Order
