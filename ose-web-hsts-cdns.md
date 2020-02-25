@@ -27,10 +27,15 @@ If you use a content delivery network (CDN) in front of your website, you will n
 8. To proceed, click *I Understand*.
  
 9. Click *Next*.
- 
+
 10. Configure HSTS settings appropriate for your domain.  We recommennd a HSTS max-age of at least six months (31536000 seconds). 
 
 11. Save changes.
 
 
 [Instructions for additional CDNs will be added in the future.]
+
+--------
+
+This documentation is part of the Internet Society's [Open Standards Everywhere project](https://www.internetsociety.org/ose/).
+To find the most recent version or to provide feedback, plase visit https://github.com/InternetSociety/ose-documentation
