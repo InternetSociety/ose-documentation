@@ -25,6 +25,8 @@ excellent tutorials on these topics, including some the Internet Society created
 
 The technical documentation listed below is currently planned. As the project is just getting underway, **this list may change**.
 
+As each piece of documentation is added to the repository, a link will be added to the list below. Documents without a link have not been created yet.
+
 ### Introduction
 * How a generic apache, nginx, or basic LAMP-stack is missing security pieces
 
@@ -42,9 +44,9 @@ The technical documentation listed below is currently planned. As the project is
 [Note: need to include notes about how to turn off older versions of TLS]
 
 ### TLS - HSTS
-* [How to configure HSTS on your apache web server](ose-web-hsts-apache.md)
-* [How to configure HSTS on your nginx web server](ose-web-hsts-nginx.md)
-* [How to configure HSTS on your web server with a CDN](ose-web-hsts-cdns.md)
+* **[How to configure HSTS on your apache web server](ose-web-hsts-apache.md)**
+* **[How to configure HSTS on your nginx web server](ose-web-hsts-nginx.md)**
+* **[How to configure HSTS on your web server with a CDN](ose-web-hsts-cdns.md)**
 
 ### TLS - Cipher Order
 * How to configure TLS cipher order on your apache web server
