@@ -41,7 +41,12 @@ As each piece of documentation is added to the repository, a link will be added 
 ### TLS 1.3 using Let's Encrypt
 * How to configure TLS 1.3 on your apache or nginx web server
 * How to configure TLS 1.3 on your apache or nginx web server with a CDN
-[Note: need to include notes about how to turn off older versions of TLS]
+
+### TLS - How to disable TLS 1.0 and 1.1
+
+* How to disable TLS 1.0 and 1.1 on your apache web server
+* How to disable TLS 1.0 and 1.1 on your nginx web server
+* **[How to disable TLS 1.0 and 1.1 on your web server with a CDN](ose-web-tls-versions-cdns.md)**
 
 ### TLS - HSTS
 * **[How to configure HSTS on your apache web server](ose-web-hsts-apache.md)**
