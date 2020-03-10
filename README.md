@@ -54,8 +54,8 @@ As each piece of documentation is added to the repository, a link will be added 
 * **[How to configure HSTS on your web server with a CDN](ose-web-hsts-cdns.md)**
 
 ### TLS - Cipher Order
-* How to configure TLS cipher order on your apache web server
-* How to configure TLS cipher order on your nginx web server
+* **[How to configure TLS cipher order on your apache web server](ose-web-tls-cipher-order-apache.md)**
+* **[How to configure TLS cipher order on your nginx web server](ose-web-tls-cipher-order-nginx.md)**
 * How to configure TLS cipher order on your apache or nginx web server with a CDN
 
 ### TLS - HTTP security headers
