@@ -66,9 +66,9 @@ The documentation has been developed and verified on our reference servers runni
 * How to configure HTTP security headers on your apache or nginx web server with a CDN
 
 ### HTTP/2
-* How to configure HTTP/2 on your apache web server
-* How to configure HTTP/2 on your nginx web server
-* How to configure HTTP/2 on your apace or nginx web server with a CDN
+* **[How to configure HTTP/2 on your apache web server](ose-web-http2-apache.md)**
+* **[How to configure HTTP/2 on your nginx web server](ose-web-http2-nginx.md)**
+* **[How to configure HTTP/2 on your web server with a CDN](ose-web-http2-cdns.md)**
 
 ## Providing feedback
 
