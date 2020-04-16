@@ -1,6 +1,6 @@
 # How to configure HTTP/2 on your NGINX web server
 
-Hypertext Transfer Protocol Version 2 (HTTP2), defined in [RFC 7540](https://tools.ietf.org/html/rfc7540) improves website performance and enables a more efficient use of network resources. Unlike its predecessor, HTTP/1.1, HTTP/2 can handle heavy loads of resources such as images, fonts, scripts, and stylesheets which result in better load speeds.  It reduces latency by introducing header field compression and enables Multiplexing, which allows the client and server to process multiple concurrent requests over the same connection.  
+Hypertext Transfer Protocol Version 2 (HTTP2), defined in [RFC 7540](https://tools.ietf.org/html/rfc7540) improves website performance and enables a more efficient use of network resources. Unlike its predecessor, HTTP/1.1, HTTP/2 can handle heavy loads of resources such as images, fonts, scripts, and stylesheets which result in better load speeds.  It reduces latency by introducing header field compression and enables multiplexing, which allows the client and server to process multiple concurrent requests over the same connection.  
 
 ## HTTP2 on NGINX
 1. Open your configuration file (we will use `default.conf` as an example)
