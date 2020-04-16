@@ -26,5 +26,9 @@ To set the cipher order so that they are in the correct order for the TLS1.2 and
 
 --------
 
+Note: Developed on a server running Debian 10.2 and Apache 2.4.38.
+ 
+--------
+
 This documentation is part of the Internet Society's [Open Standards Everywhere project](https://www.internetsociety.org/ose/).
 To find the most recent version or to provide feedback, please visit https://github.com/InternetSociety/ose-documentation

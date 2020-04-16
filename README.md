@@ -27,6 +27,8 @@ The technical documentation listed below is currently planned. As the project is
 
 As each piece of documentation is added to the repository, a link will be added to the list below. Documents without a link have not been created yet.
 
+The documentation has been developed and verified on our reference servers running Debian 10.2 and either Apache 2.4.38 or NGINX 1.14.2. We use certbot 0.31.0 for Let's Encrypt certificates.
+
 ### Introduction
 * How a generic apache, nginx, or basic LAMP-stack is missing security pieces
 

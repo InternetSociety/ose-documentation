@@ -23,6 +23,9 @@ To disable, we will set the SSL Protocols direction to only allow TLS1.2 and TLS
 
 --------
 
+Note: Developed on a server running Debian 10.2 and Apache 2.4.38.
+ 
+--------
 
 This documentation is part of the Internet Society's [Open Standards Everywhere project](https://www.internetsociety.org/ose/).
 To find the most recent version or to provide feedback, please visit https://github.com/InternetSociety/ose-documentation

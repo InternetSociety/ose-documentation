@@ -50,7 +50,7 @@ During a default install on Debian, Apache is configured with mpm_prefork. This 
  
 --------
 
-Note: Developed on a server running Debian 10.2 and Apache 2.4.38
+Note: Developed on a server running Debian 10.2 and Apache 2.4.38.
  
 --------
 
