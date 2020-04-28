@@ -36,7 +36,7 @@ The documentation has been developed and verified on our reference servers runni
 
 ### IPv6
 * How to configure IPv6 on your apache or nginx web server
-* **[How to configure IPv6 on your web server with a CDN](ose-web-ipv6-cdns.md)
+* **[How to configure IPv6 on your web server with a CDN](ose-web-ipv6-cdns.md)**
 
 ### DNSSEC
 * How to configure DNSSEC for your apache or nginx web server
