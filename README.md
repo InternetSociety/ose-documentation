@@ -13,6 +13,8 @@ For the Open Standards Everywhere (OSE) project, we are building four reference 
 All of these servers are being configured to achieve 100% on [the Internet.nl website test suite](https://internet.nl/) 
 and to pass the [http2.pro](https://http2.pro/) HTTP/2 test.
 
+Two of the servers are set up as "regular" web servers running in virtual machines. Two of the servers are set up behind a [content delivery network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network).
+
 12 Feb 2020 Update - The two non-CDN sites are at 100% in the tests. The two CDN sites are at 97% while we are getting
 some changes made to the TLS configuration (dropping support for TLS 1.0/1.1) in the CDN.  All four servers support HTTP/2.
 
@@ -34,7 +36,7 @@ The documentation has been developed and verified on our reference servers runni
 
 ### IPv6
 * How to configure IPv6 on your apache or nginx web server
-* How to configure IPv6 on your apache or nginx web server with a CDN
+* **[How to configure IPv6 on your web server with a CDN](ose-web-ipv6-cdns.md)
 
 ### DNSSEC
 * How to configure DNSSEC for your apache or nginx web server
