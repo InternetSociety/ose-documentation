@@ -4,9 +4,9 @@ Transport Layer Security (TLS), defined in [RFC 8446](https://tools.ietf.org/htm
 TLS is currently at version 1.3. Web servers can support multiple versions, but version 1.0 (from 1999) and 1.1 (from 2006) are known to be at risk of not being secure enough. To protect your website from possible attacks against these older TLS versions, IT security guidelines recommend disabling TLS 1.0 and 1.1 on your web server and only support TLS versions 1.2 and 1.3.
 
 ## Disable TLS 1.0/1.1 on NGINX:
-To disable, we will set the SSL Protocols direction to only allow TLS1.2 and TLS1.3
+To disable, we will set the `ssl_protocols` directive to only allow TLS1.2 and TLS1.3
 
-1. Edit ssl-parms.conf
+1. Edit `ssl-parms.conf`
     **Note**: we have our SSL directives setup in a file called ssl-parms.conf. You configuration may differ, so be sure you are editing where your SSL configuration is being read from.
 
 2. Find the ssl_protocols directive and set to the following:
