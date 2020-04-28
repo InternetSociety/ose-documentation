@@ -41,7 +41,8 @@ The documentation has been developed and verified on our reference servers runni
 * How to configure DNSSEC for your apache or nginx web server with a CDN
 
 ### TLS 1.3 using Let's Encrypt
-* How to configure TLS 1.3 on your apache or nginx web server
+* **[How to configure TLS 1.3 on your apache web server](ose-web-tls-1-3-apache.md)**
+* **[How to configure TLS 1.3 on your NGINX web server](ose-web-tls-1-3-nginx.md)**
 * How to configure TLS 1.3 on your apache or nginx web server with a CDN
 
 ### TLS - How to disable TLS 1.0 and 1.1
