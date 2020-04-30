@@ -41,7 +41,7 @@ The documentation has been developed and verified on our reference servers runni
 * **[How to configure IPv6 on your web server with a CDN](ose-web-ipv6-cdns.md)**
 
 ### DNSSEC
-* How to configure DNSSEC for your apache or NGINX web server
+* **[How to configure DNSSEC for your apache or NGINX web server](ose-web-dnssec-apache-nginx.md)**
 * How to configure DNSSEC for your apache or NGINX web server with a CDN
 
 ### TLS 1.3 using Let's Encrypt
