@@ -40,5 +40,9 @@ Note: This allows your web server to respond to incoming HTTP requests on *any* 
 
 --------
 
+Note: Developed on a server running Debian 10.2 and NGINX 1.14.2.
+ 
+--------
+
 This documentation is part of the Internet Society's [Open Standards Everywhere project](https://www.internetsociety.org/ose/).
 To find the most recent version or to provide feedback, please visit https://github.com/InternetSociety/ose-documentation
