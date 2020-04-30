@@ -56,6 +56,10 @@ When you are done, you will need to restart NGINX.
 ## Resources
 
 * *(To be added - list of relevant RFCs and/or tutorials.)*
+1. https://tools.ietf.org/html/rfc2660 - RFC2660: The Secure Hypertext Transfer Protocol RFC
+2. https://developers.cloudflare.com/ssl/ssl-tls/cipher-suites/ - Cloudflare's list of supported Cipher Suites
+3. https://wiki.mozilla.org/Security/Server_Side_TLS - Server Side TLS by Mozilla
+4. https://github.com/cloudflare/sslconfig - ChaCha20/Poly1305 patch by Cloudflare
 
 --------
 
