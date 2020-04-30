@@ -35,7 +35,8 @@ The documentation has been developed and verified on our reference servers runni
 * How a generic apache, nginx, or basic LAMP-stack is missing security pieces
 
 ### IPv6
-* How to configure IPv6 on your apache or nginx web server
+* **[How to configure IPv6 on your apache web server](ose-web-ipv6-apache.md)**
+* **[How to configure IPv6 on your NGINX web server](ose-web-ipv6-nginx.md)**
 * **[How to configure IPv6 on your web server with a CDN](ose-web-ipv6-cdns.md)**
 
 ### DNSSEC
