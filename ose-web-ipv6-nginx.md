@@ -16,7 +16,7 @@ Once you confirm you have IPv6 connectivity on your web server, you will:
 ```
 server {
     listen 443 ssl;
-    **listen [::]:443 ssl;**
+    listen [::]:443 ssl;
     include snippets/ssl-params.conf;
  
     server_name example.com www.example.com;
@@ -29,6 +29,8 @@ server {
 
 3. Restart the NGINX service.
 
+Note: This allows your web server to respond to incoming HTTP requests on *any* IPv6 addresses on the server. If you have a web server with multiple IPv6 addresses and you want the web server to respond to only a single IPv6 address, you will need to replace the `::` in `[::]` with the specific IPv6 address.
+
 --------
 
 ## Resources
@@ -37,7 +39,6 @@ server {
 * [Making Content Available Over IPv6](https://www.internetsociety.org/resources/deploy360/2013/making-content-available-over-ipv6/)
 
 --------
-
 
 This documentation is part of the Internet Society's [Open Standards Everywhere project](https://www.internetsociety.org/ose/).
 To find the most recent version or to provide feedback, please visit https://github.com/InternetSociety/ose-documentation
