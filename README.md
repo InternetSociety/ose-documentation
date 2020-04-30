@@ -32,7 +32,7 @@ As each piece of documentation is added to the repository, a link will be added 
 The documentation has been developed and verified on our reference servers running Debian 10.2 and either Apache 2.4.38 or NGINX 1.14.2. We use certbot 0.31.0 for Let's Encrypt certificates.
 
 ### Introduction
-* How a generic apache, nginx, or basic LAMP-stack is missing security pieces
+* How a generic apache, NGINX, or basic LAMP-stack is missing security pieces
 
 ### IPv6
 * **[How to configure IPv6 on your apache web server](ose-web-ipv6-apache.md)**
@@ -40,38 +40,38 @@ The documentation has been developed and verified on our reference servers runni
 * **[How to configure IPv6 on your web server with a CDN](ose-web-ipv6-cdns.md)**
 
 ### DNSSEC
-* How to configure DNSSEC for your apache or nginx web server
-* How to configure DNSSEC for your apache or nginx web server with a CDN
+* How to configure DNSSEC for your apache or NGINX web server
+* How to configure DNSSEC for your apache or NGINX web server with a CDN
 
 ### TLS 1.3 using Let's Encrypt
 * **[How to configure TLS 1.3 on your apache web server](ose-web-tls-1-3-apache.md)**
 * **[How to configure TLS 1.3 on your NGINX web server](ose-web-tls-1-3-nginx.md)**
-* How to configure TLS 1.3 on your apache or nginx web server with a CDN
+* How to configure TLS 1.3 on your apache or NGINX web server with a CDN
 
 ### TLS - How to disable TLS 1.0 and 1.1
 
 * **[How to disable TLS 1.0 and 1.1 on your apache web server](ose-web-tls-versions-apache.md)**
-* **[How to disable TLS 1.0 and 1.1 on your nginx web server](ose-web-tls-versions-nginx.md)**
+* **[How to disable TLS 1.0 and 1.1 on your NGINX web server](ose-web-tls-versions-nginx.md)**
 * **[How to disable TLS 1.0 and 1.1 on your web server with a CDN](ose-web-tls-versions-cdns.md)**
 
 ### TLS - HSTS
 * **[How to configure HSTS on your apache web server](ose-web-hsts-apache.md)**
-* **[How to configure HSTS on your nginx web server](ose-web-hsts-nginx.md)**
+* **[How to configure HSTS on your NGINX web server](ose-web-hsts-nginx.md)**
 * **[How to configure HSTS on your web server with a CDN](ose-web-hsts-cdns.md)**
 
 ### TLS - Cipher Order
 * **[How to configure TLS cipher order on your apache web server](ose-web-tls-cipher-order-apache.md)**
-* **[How to configure TLS cipher order on your nginx web server](ose-web-tls-cipher-order-nginx.md)**
-* How to configure TLS cipher order on your apache or nginx web server with a CDN
+* **[How to configure TLS cipher order on your NGINX web server](ose-web-tls-cipher-order-nginx.md)**
+* How to configure TLS cipher order on your apache or NGINX web server with a CDN
 
 ### TLS - HTTP security headers
 * **[How to configure HTTP security headers on your apache web server](ose-web-http-security-headers-apache.md)**
-* **[How to configure HTTP security headers on your nginx web server](ose-web-http-security-headers-nginx.md)**
-* How to configure HTTP security headers on your apache or nginx web server with a CDN
+* **[How to configure HTTP security headers on your NGINX web server](ose-web-http-security-headers-nginx.md)**
+* How to configure HTTP security headers on your apache or NGINX web server with a CDN
 
 ### HTTP/2
 * **[How to configure HTTP/2 on your apache web server](ose-web-http2-apache.md)**
-* **[How to configure HTTP/2 on your nginx web server](ose-web-http2-nginx.md)**
+* **[How to configure HTTP/2 on your NGINX web server](ose-web-http2-nginx.md)**
 * **[How to configure HTTP/2 on your web server with a CDN](ose-web-http2-cdns.md)**
 
 ## Providing feedback
