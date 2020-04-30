@@ -4,7 +4,7 @@ Hypertext Transfer Protocol Version 2 (HTTP2), defined in [RFC 7540](https://too
 
 ## HTTP/2 on Apache
  
-During a default install on Debian, Apache is configured with mpm_prefork. This will not work with HTTP/2. You need to use either mpm_event or mpm_worker. For our example, we used mpm_event.
+During a default install on Debian, Apache is configured with `mpm_prefork`. This will not work with HTTP/2. You need to use either `mpm_event` or `mpm_worker`. For our example, we used `mpm_event`.
  
 1. Stop apache
     ```
