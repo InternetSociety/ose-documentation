@@ -7,7 +7,12 @@ Content delivery networks (CDNs) provide one mechanism to easily add IPv6 suppor
 Many CDNs support IPv6 by default. There is no further action you need to do once you have set up your account with the CDN. We are currently aware that the following CDNs enable IPv6 by default:
 
 * Akamai
+* Amazon CloudFront
+* BelugaCDN
 * Cloudflare
+* Fastly
+* Limelight
+* OVH
 
 --------
 
