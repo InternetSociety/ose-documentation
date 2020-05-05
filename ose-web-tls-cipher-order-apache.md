@@ -10,9 +10,9 @@ To set the cipher order so that they are in the correct order for the TLS1.2 and
 
 1. Edit `ssl.conf` (should have already been enabled when setting up server for SSL connections)
  
-2. Find the SSLCipherSuite direction and set to the following:
+2. Find the `SSLCipherSuite` directive and set to the following:
     ```
-    SSSLCipherSuite      
+    SSLCipherSuite      
     ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305::ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384
     ```
 3. Restart Apache
