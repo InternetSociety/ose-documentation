@@ -10,7 +10,7 @@ TLS is currently at version 1.3. Web servers can support multiple versions, but 
 
 2. Edit `options-ssl-apache.conf`
 
-3. Find the `SSPLProtocol` line and set it to the following (if it is not already set):
+3. Find the `SSLProtocol` line and set it to the following (if it is not already set):
     ```
     SSLProtocol all -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
     ``` 
