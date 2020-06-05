@@ -25,7 +25,8 @@ server {
     root /var/www/example.com/html;
     index index.html index.htm index.nginx-debian.html;
  
-}```
+}
+```
 
 3. Restart the NGINX service.
 
