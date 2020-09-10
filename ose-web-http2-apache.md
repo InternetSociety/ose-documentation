@@ -48,6 +48,14 @@ During a default install on Debian, Apache is configured with `mpm_prefork`. Thi
     apachectl start
     ```
  
+ --------
+
+## Resources
+
+* [RFC 7540 - Hypertext Transfer Protocol Version 2 (HTTP/2)](https://tools.ietf.org/html/rfc7540)
+* [HTTP/2 site - IETF HTTP Working Group](https://http2.github.io/)
+* [Introduction to HTTP/2 - Google](https://developers.google.com/web/fundamentals/performance/http2)
+
 --------
 
 Note: Developed on a server running Debian 10.2 and Apache 2.4.38.
