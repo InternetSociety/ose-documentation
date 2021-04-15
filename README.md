@@ -4,7 +4,7 @@ This repository contains documentation for the Internet Society's [Open Standard
 
 ## Servers
 
-For the Open Standards Everywhere (OSE) project, we are building four reference servers:
+For the 2020 Open Standards Everywhere (OSE) project, we built four reference servers:
 * https://ose-apache.internetsociety.org/
 * https://ose-apache-cdn.internetsociety.org/
 * https://ose-nginx.internetsociety.org/
@@ -15,19 +15,12 @@ and to pass the [http2.pro](https://http2.pro/) HTTP/2 test.
 
 Two of the servers are set up as "regular" web servers running in virtual machines. Two of the servers are set up behind a [content delivery network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network).
 
-12 Feb 2020 Update - The two non-CDN sites are at 100% in the tests. The two CDN sites are at 97% while we are getting
-some changes made to the TLS configuration (dropping support for TLS 1.0/1.1) in the CDN.  All four servers support HTTP/2.
+15 April 2021 Update - The two non-CDN sites are at 100% in the tests. The two CDN sites are at 94% while we are getting
+some changes made to the TLS configuration settings in the CDN.  All four servers support HTTP/2.
 
 ## Current plan for documentation
 
-The following documents will be created as part of the project. Note that they will all be written in English and then translated into French and Spanish.
-
-We are not planning to create all of these documents entirely from scratch. We will also reference many of the other existing
-excellent tutorials on these topics, including some the Internet Society created earlier as part of our Deploy360 Programme.
-
-The technical documentation listed below is currently planned. As the project is just getting underway, **this list may change**.
-
-As each piece of documentation is added to the repository, a link will be added to the list below. Documents without a link have not been created yet.
+The following documents were created as part of the project. We are in the process of reviewing the documents and then plan to translate them into French and Spanish.
 
 The documentation has been developed and verified on our reference servers running Debian 10.2 and either Apache 2.4.38 or NGINX 1.14.2. We use certbot 0.31.0 for Let's Encrypt certificates.
 
