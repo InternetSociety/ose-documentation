@@ -46,18 +46,6 @@ The following documents were created as part of the project. The documentation h
 * **[How to configure HTTP/2 on your NGINX web server](ose-web-http2-nginx.md)**
 * **[How to configure HTTP/2 on your web server with a CDN](ose-web-http2-cdns.md)**
 
-## Servers
-
-For the 2020 Open Standards Everywhere (OSE) project, we built four reference servers so that you could use them for tests to see what "good" looks like:
-* https://ose-apache.internetsociety.org/
-* https://ose-apache-cdn.internetsociety.org/
-* https://ose-nginx.internetsociety.org/
-* https://ose-nginx-cdn.internetsociety.org/
-
-All of these servers are being configured to achieve 100% on [the Internet.nl website test suite](https://internet.nl/) 
-and to pass the [http2.pro](https://http2.pro/) HTTP/2 test.
-
-Two of the servers are set up as "regular" web servers running in virtual machines. Two of the servers are set up behind a [content delivery network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network).
 
 ## Providing feedback
 
